@@ -6,7 +6,7 @@ const app = express();
 
 // Homepage
 app.get('/', (req, res) => {
-  res.status(200).send('Hello World! on Render');
+  res.status(200).send('Hello World! on Render ~ updated.');
 });
 
 // Listener
